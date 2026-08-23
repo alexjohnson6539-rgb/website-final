@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Unsigned Works</title>
+  <link rel="icon" type="image/png" href="icons/favicon-32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <span class="site-title">The Unsigned Works</span>
+  </header>
+
+  <button class="sound-toggle muted" aria-label="Toggle ambient sound">♪</button>
+  <audio class="ambient-sound" loop muted preload="none">
+    <source src="sound/ambience.mp3" type="audio/mpeg">
+  </audio>
+
+  <video class="bg-video active" data-src="background-video/bgvideo-1.mp4" autoplay muted loop playsinline>
+    <source src="background-video/bgvideo-1.mp4" type="video/mp4">
+  </video>
+  <video class="bg-video" data-src="background-video/bgvideo-2.mp4" muted loop playsinline preload="auto">
+  <source src="background-video/bgvideo-2.mp4" type="video/mp4">
+</video>
+<video class="bg-video" data-src="background-video/bgvideo-3.mp4" muted loop playsinline preload="auto">
+  <source src="background-video/bgvideo-3.mp4" type="video/mp4">
+</video>
+
+  <main>
+    <section class="painting-section" data-video="background-video/bgvideo-1.mp4" data-speed="0.8">
+      <div class="painting-frame">
+        <img class="painting" src="paintings/1.webp" alt="" draggable="false">
+        <div class="scroll-hint"></div>
+      </div>
+    </section>
+
+    <section class="painting-section" data-video="background-video/bgvideo-1.mp4" data-speed="0.8">
+      <div class="painting-frame">
+        <div class="scroll-hint-up"></div>
+        <img class="painting" src="paintings/2.webp" alt="" draggable="false">
+        <div class="scroll-hint"></div>
+      </div>
+    </section>
+
+    <section class="painting-section" data-video="background-video/bgvideo-1.mp4" data-speed="0.8">
+      <div class="painting-frame">
+        <div class="scroll-hint-up"></div>
+        <img class="painting" src="paintings/3.webp" alt="" draggable="false">
+        <div class="scroll-hint"></div>
+      </div>
+    </section>
+
+    <section class="painting-section" data-video="background-video/bgvideo-1.mp4" data-speed="0.8">
+      <div class="painting-frame">
+        <div class="scroll-hint-up"></div>
+        <img class="painting" src="paintings/4.webp" alt="" draggable="false">
+        <div class="scroll-hint"></div>
+      </div>
+    </section>
+
+    <section class="painting-section" data-video="background-video/bgvideo-1.mp4" data-speed="1">
+      <div class="painting-frame">
+        <div class="scroll-hint-up"></div>
+        <img class="painting" src="paintings/5.webp" alt="" draggable="false">
+        <div class="scroll-hint"></div>
+      </div>
+    </section>
+
+    <section class="painting-section" data-video="background-video/bgvideo-1.mp4" data-speed="1">
+      <div class="painting-frame">
+        <div class="scroll-hint-up"></div>
+        <img class="painting" src="paintings/6.webp" alt="" draggable="false">
+        <div class="scroll-hint"></div>
+      </div>
+    </section>
+
+    <section class="painting-section" data-video="background-video/bgvideo-2.mp4" data-speed="1">
+      <div class="painting-frame">
+        <div class="scroll-hint-up"></div>
+        <img class="painting" src="paintings/7.webp" alt="" draggable="false">
+        <div class="scroll-hint"></div>
+      </div>
+    </section>
+
+    <section class="painting-section" data-video="background-video/bgvideo-2.mp4" data-speed="1">
+      <div class="painting-frame">
+        <div class="scroll-hint-up"></div>
+        <img class="painting" src="paintings/8.webp" alt="" draggable="false">
+        <div class="scroll-hint"></div>
+      </div>
+    </section>
+
+    <section class="painting-section" data-video="background-video/bgvideo-2.mp4" data-speed="1">
+      <div class="painting-frame">
+        <div class="scroll-hint-up"></div>
+        <img class="painting" src="paintings/9.webp" alt="" draggable="false">
+        <div class="scroll-hint"></div>
+      </div>
+    </section>
+
+    <section class="painting-section" data-video="background-video/bgvideo-3.mp4" data-speed="1">
+      <div class="painting-frame">
+        <div class="scroll-hint-up"></div>
+        <img class="painting" src="paintings/10.webp" alt="" draggable="false">
+        <div class="scroll-hint"></div>
+      </div>
+    </section>
+
+    <section class="painting-section" data-video="background-video/bgvideo-3.mp4" data-speed="1">
+      <div class="painting-frame">
+        <div class="scroll-hint-up"></div>
+        <img class="painting" src="paintings/11.webp" alt="" draggable="false">
+        <div class="scroll-hint"></div>
+      </div>
+    </section>
+
+    <section class="painting-section" data-video="background-video/bgvideo-3.mp4" data-speed="1">
+      <div class="painting-frame">
+        <div class="scroll-hint-up"></div>
+        <img class="painting" src="paintings/12.webp" alt="" draggable="false">
+        <div class="scroll-hint"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="footer-credit">Paintings by J.S.</span>
+    <a href="mailto:theunsignedworks@gmail.com">Contact</a>
+  </footer>
+
+  <div class="lightning-flash"></div>
+  <script src="script.js"></script>
+</body>
+</html>
