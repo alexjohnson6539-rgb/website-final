@@ -295,3 +295,10 @@ footer a:hover {
     font-size: 1.15rem;
   }
 }
+
+@media (max-width: 1024px) and (min-width: 601px) {
+  .sound-toggle {
+    top:2.3rem;
+    right: 8rem;
+  }
+}
